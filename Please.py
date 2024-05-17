@@ -1,17 +1,4 @@
 
-import subprocess
-import sys
-
-# Function to install a package
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-# Install joblib
-install(joblib)
-
-import joblib
-
-import requests
 import joblib
 import streamlit as st
 #!pip install joblib
