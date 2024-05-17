@@ -1,7 +1,7 @@
-
-
+!pip install joblib
+import joblib
 import streamlit as st
-#!pip install joblib
+
 
 # Load your trained model and vectorizer
 
