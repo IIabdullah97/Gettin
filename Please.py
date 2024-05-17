@@ -1,4 +1,5 @@
-joblib
+pip install -r requirements.txt
+
 import joblib
 import streamlit as st
 
